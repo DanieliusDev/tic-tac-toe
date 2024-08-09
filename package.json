@@ -1,0 +1,45 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check",
+    "check:watch": "svelte-kit sync && svelte-check --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "husky": "^9.1.4",
+    "lucide-svelte": "^0.426.0",
+    "svelte": "5.0.0-next.210",
+    "tailwind-merge": "^2.4.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/types": "^19.0.3",
+    "@sveltejs/adapter-vercel": "^5.4.2",
+    "@sveltejs/kit": "^2.5.21",
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@types/eslint": "^9.6.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-svelte": "^2.43.0",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.41",
+    "prettier": "^3.3.3",
+    "prettier-plugin-svelte": "^3.2.6",
+    "svelte-check": "^3.8.5",
+    "tailwindcss": "^3.4.9",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.0"
+  },
+  "type": "module",
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
+}
